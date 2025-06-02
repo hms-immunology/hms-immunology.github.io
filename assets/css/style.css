@@ -14,9 +14,11 @@ body {
 
 /* Navigation */
 .navbar-brand {
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
     color: var(--hms-primary) !important;
+    letter-spacing: 0.5px;
+    font-family: 'Georgia', 'Times New Roman', serif;
 }
 
 .navbar-dark {
