@@ -155,7 +155,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📧 **Contact**: [HMS Immunology](mailto:contact@hms-immunology.org)
+- 📧 **Contact**: [Eren Ada, PhD](mailto:eren_ada@hms.harvard.edu)
 - 📖 **Documentation**: [Organization Wiki](../../wiki)
 
 ## Acknowledgments
