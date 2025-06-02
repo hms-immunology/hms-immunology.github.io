@@ -9,12 +9,12 @@
     <link href="assets/css/style.css" rel="stylesheet">
     
     <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L37ELY1VV"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-5L37ELY1VV');
+      gtag('config', 'G-XXXXXXXXXX');
     </script>
 </head>
 <body>
