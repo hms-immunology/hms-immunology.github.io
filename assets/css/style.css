@@ -1,0 +1,139 @@
+/* HMS Immunology Custom Styles */
+
+:root {
+    --hms-primary: #c8102e;
+    --hms-secondary: #8996a0;
+    --hms-dark: #2c3e50;
+    --hms-light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.bg-primary {
+    background-color: var(--hms-primary) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 100px 0;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    text-align: center;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--hms-primary);
+    border-color: var(--hms-primary);
+}
+
+.btn-primary:hover {
+    background-color: #a00d26;
+    border-color: #a00d26;
+}
+
+.btn-outline-primary {
+    color: var(--hms-primary);
+    border-color: var(--hms-primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--hms-primary);
+    border-color: var(--hms-primary);
+}
+
+/* Sections */
+section {
+    scroll-margin-top: 70px;
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--hms-primary) !important;
+}
+
+/* Alert */
+.alert-info {
+    background-color: #e8f4fd;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+/* Footer */
+footer {
+    background-color: var(--hms-dark) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-image {
+        margin-top: 30px;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Icon Styling */
+.fa-10x {
+    font-size: 8em;
+}
+
+/* Navigation active state */
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Card icon styling */
+.card-body i {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-body i {
+    opacity: 1;
+} 
