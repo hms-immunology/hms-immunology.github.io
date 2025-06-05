@@ -67,7 +67,7 @@ exclude:
   - README.md
 
 # SEO Settings
-google_analytics: # Add your GA tracking ID if needed
+google_analytics: "G-5L37ELY1VV" # Replace with your GA4 tracking ID
 twitter:
   username: # Add Twitter handle if applicable
 
