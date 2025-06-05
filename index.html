@@ -66,7 +66,7 @@
         <div class="container">
             <h2 class="text-center mb-5">Bioinformatics Resources</h2>
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="card h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-code fa-3x text-primary mb-3"></i>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="card h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-database fa-3x text-primary mb-3"></i>
@@ -86,7 +86,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">RNA-seq QC Tool</h5>
+                            <p class="card-text">Interactive Shiny application for comprehensive RNA sequencing data validation and preprocessing.</p>
+                            <a href="https://github.com/hms-immunology/RNA_QC_APP" class="btn btn-primary" target="_blank">View Tool</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
                     <div class="card h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-tasks fa-3x text-primary mb-3"></i>
@@ -142,10 +152,47 @@
         <div class="container">
             <h2 class="text-center mb-5">Analysis Pipelines</h2>
             <div class="row">
-                <div class="col-12">
-                    <div class="alert alert-info">
-                        <i class="fas fa-info-circle me-2"></i>
-                        Analysis pipelines are currently in development. Check back soon for updates.
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-chart-line me-2"></i>RNA-seq Quality Control & Preprocessing</h5>
+                            <p class="card-text">Interactive Shiny application for comprehensive RNA sequencing data validation, quality assessment, filtering, and normalization. Features include automated data import, real-time validation, PCA visualization, correlation analysis, and multiple normalization methods.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">R/Shiny</span>
+                                <span class="badge bg-secondary me-1">RNA-seq</span>
+                                <span class="badge bg-success me-1">QC</span>
+                                <span class="badge bg-info">Preprocessing</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">Production Ready</small>
+                                <div>
+                                    <a href="https://github.com/hms-immunology/RNA_QC_APP" class="btn btn-outline-primary me-2" target="_blank">
+                                        <i class="fab fa-github me-1"></i>Repository
+                                    </a>
+                                    <a href="https://github.com/hms-immunology/RNA_QC_APP/blob/main/README.md" class="btn btn-primary" target="_blank">
+                                        <i class="fas fa-book me-1"></i>Documentation
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-wrench me-2"></i>Additional Pipelines</h5>
+                            <p class="card-text">More analysis pipelines are currently in development, including differential expression analysis, pathway enrichment tools, and advanced visualization modules.</p>
+                            <div class="alert alert-info mb-3">
+                                <i class="fas fa-info-circle me-2"></i>
+                                Coming soon: Differential Gene Expression (DEG) Analysis Tool and Pathway & Functional Enrichment Analysis Tool.
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">In Development</small>
+                                <a href="https://github.com/hms-immunology" class="btn btn-outline-primary" target="_blank">
+                                    <i class="fab fa-github me-1"></i>View All
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,7 +214,7 @@
                         <i class="fas fa-envelope me-2"></i>
                         <a href="mailto:eren_ada@hms.harvard.edu">Eren Ada, PhD</a>
                     </p>
-                    <p class="text-muted">Last updated: 06/02/2025</p>
+                    <p class="text-muted">Last updated: 06/05/2025</p>
                 </div>
             </div>
         </div>
